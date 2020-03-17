@@ -5,7 +5,7 @@ header{
   /* color: #fff; */
   background-image: url("../img/bgjpg.jpg");
   background-repeat: no-repeat;
-
+  min-height: 793px;
 }
 body{
   font-family: 'Source Sans Pro', sans-serif;
@@ -13,6 +13,8 @@ body{
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .container{
   max-width: 1200px;
@@ -83,4 +85,122 @@ a{
   padding-top: 33px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 140px;
 }
+.descr__title{
+  font-size: 45px;
+  line-height: 60px;
+  max-width: 505px;
+  font-weight: bold;
+  width:100%;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+.descr__for{
+  font-size: 24px;
+  line-height: 55px;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+.descr__button-link{
+  padding: 13px 39px;
+  background-color: #FFCA00;
+  color: #250F8A;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 25px;
+}
+.header-main__inner{
+  display: flex;
+  align-items: flex-start;
+}
+.img-boys{
+  margin-left: 67px;
+}
+.spec{
+  margin-top: 55px;
+  margin-bottom: 93px;
+}
+.spec-all{
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+}
+.spec-title{
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 96px;
+  color: #202020;
+}
+.spec-items{
+  max-width:280px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.spec-items__img{
+  margin-bottom: 16px;
+}
+.spec-items__title{
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #202020;
+  margin-bottom: 10px;
+}
+.spec-items__text{
+  text-align: center;
+  color: #272727;
+  opacity: 0.7;
+}
+.left-line{
+  position: absolute;
+}
+.text-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 45px;
+  color: #202020;
+  margin-bottom: 30.5px;
+}
+.text-descr{
+  color: #272727;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.work__item-text{
+  max-width: 455px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-items: flex-end;
+
+}
+.work__item{
+  display: flex;
+  justify-content: space-between;
+}
+.work{
+  position: relative;
+}
+.item2{
+  order:1;
+}
+.title1{
+  position: relative;
+}
+.right-line{
+  right:0;
+  top: 670px;
+  position: absolute;
+}
+/* .work1{
+  padding-left: 47px;
+} */

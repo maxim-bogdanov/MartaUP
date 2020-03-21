@@ -67,7 +67,6 @@ a{
 .logo__pic{
   display: inline-block;
   margin-right: 12px;
-
 }
 .logo__name{
   display: inline-block;
@@ -113,9 +112,47 @@ a{
 .header-main__inner{
   display: flex;
   align-items: flex-start;
+  /* min-width: 0; */
+  /* justify-content: space-between; */
 }
 .img-boys{
   margin-left: 67px;
+}
+.slider{
+  position: relative;
+}
+.slick-initialized .slick-slide{
+  display: flex;
+}
+.header-dots{
+  list-style: none;
+  position: absolute;
+  right:0;
+  top:28%;
+
+  outline: none;
+}
+
+.header-dots button{
+  border:none;
+  background-color: #fff;
+  border-radius:3.5px;
+  opacity: 0.5;
+  font-size: 0;
+  padding: 0;
+  display: block;
+  width: 7px;
+  height: 7px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.header-dots .slick-active button{
+width: 15px;
+height: 7px;
+opacity: 1;
+}
+.img-boys img{
+  width:100%;
 }
 .spec{
   margin-top: 55px;
@@ -300,4 +337,51 @@ a{
 .footer-menu a{
   color: #272727;
   display: inline-block;
+}
+@media (max-width: 924px){
+  .log-sign{
+    width: 100%;
+    display: block;
+    text-align: right;
+    margin-top: 7px;
+  }
+  .header-top{
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 570px){
+  .menu-btn{
+    width:30px;
+    height: 30px;
+    /* border:1px solid red; */
+    position: relative;
+    bottom:5px;
+    right: 5px;
+  }
+  .menu-btn__line{
+    width:30px;
+    height: 2px;
+    background-color:#fff;
+    right:0;
+    bottom:50%;
+  }
+  .menu-btn__line::after{
+    content:'';
+    width:30px;
+    height: 2px;
+    background-color:#fff;
+    position: absolute;
+    bottom: 0;
+  }
+  .menu-btn__line::before{
+    content:'';
+    width:30px;
+    height: 2px;
+    background-color:#fff;
+    position: absolute;
+    bottom: 14px;
+  }
+  .menu ul{
+    display: none;
+  }
 }

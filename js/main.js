@@ -7,7 +7,7 @@ $(function(){
     dotsClass: 'header-dots',
     // swipeToSlide: true,
     // verticalSwiping: true,
-    // autoplay: 2000
+    autoplay: 2000
   });
 
   $('.menu-btn').on('click', function(){

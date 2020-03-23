@@ -423,7 +423,7 @@ a{
     width: 100%;
     display: block;
     text-align: right;
-    margin-top: 8px;
+    margin-top: 15px;
   }
   .header-top{
     flex-wrap: wrap;
@@ -482,6 +482,14 @@ a{
     width: 266px;
     display: flex;
     justify-content: space-between;
+  }
+}
+@media (max-width: 646px){
+  .spec-items__img{
+    margin-bottom: 0;
+  }
+  .spec-items{
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 629px){

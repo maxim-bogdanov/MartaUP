@@ -460,6 +460,8 @@ a{
   }
   .work__item-img img {
     width: 70%;
+    padding-top: 22px;
+  }
   }
   .work2{
     order:-1;

@@ -423,7 +423,7 @@ a{
     width: 100%;
     display: block;
     text-align: right;
-    margin-top: 15px;
+    margin-top: 24px;
   }
   .header-top{
     flex-wrap: wrap;
@@ -461,7 +461,6 @@ a{
   .work__item-img img {
     width: 70%;
     padding-top: 22px;
-  }
   }
   .work2{
     order:-1;
